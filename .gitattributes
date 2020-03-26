@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+HMP2_metabolomics.csv filter=lfs diff=lfs merge=lfs -text
+hmp2_metadata.csv filter=lfs diff=lfs merge=lfs -text
